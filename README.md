@@ -1,20 +1,17 @@
 # louies-backend
 
 ### Setup
+`poetry install`
 
+### Quickstart
+`uvicorn app.main:app --reload` or `make run`
 
 ### Test
 
-
-### Run Development
-`uvicorn app.main:app --reload`
-or
-`make run`
+### Lint
 
 ### Deploy
 
-
-# Libraries used
+### Libraries used
 - FastAPI
 - pydnatics
-- SQLAlchemy 
