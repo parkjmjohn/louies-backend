@@ -9,6 +9,7 @@ class User(BaseModel):
     name: str
     email: Optional[str] = EmailStr
     phone: str
+    password: str
     orders: Optional[List[Order]] = []
     past_orders: Optional[List[Order]] = []
 

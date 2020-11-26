@@ -7,8 +7,9 @@ class Item(BaseModel):
     label: str
     description: str
     allegries: Optional[List[str]] = []
-    quantity: Optional[int] = 0
+    quantity: Optional[int] = 1
     user_comment: Optional[str] = None
+    order_id: Optional[int] = None
 
     class Config:
         orm_mode = True
